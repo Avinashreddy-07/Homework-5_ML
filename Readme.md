@@ -1,15 +1,13 @@
-📘 README — Scaled Dot-Product Attention & Simple Transformer Encoder Block
+# Homework-5 [Name: Avinash ]
+# Transformer Core Components: Attention & Encoder Implementation
 
-This README explains the code for:
+This project implements two fundamental building blocks of the Transformer architecture (as introduced in *Attention Is All You Need*):
+1.  **Scaled Dot-Product Attention** (implemented from scratch using NumPy).
+2.  **Transformer Encoder Block** (implemented using PyTorch `nn.Module`).
 
-Scaled Dot-Product Attention (NumPy)
+## Prerequisites
 
-Simple Transformer Encoder Block (PyTorch)
+To run these scripts, ensure you have the following dependencies installed:
 
-Each section includes:
-
-What the component does
-
-How the code works (line-by-line logic)
-
-Expected outputs and shapes
+```bash
+pip install numpy torch
